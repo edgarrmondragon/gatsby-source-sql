@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.7",
     "gatsby-source-filesystem": "^2.0.4",
+    "gatsby-source-sql": "git+https://github.com/mrfunnyshoes/gatsby-source-sql.git",
     "gatsby-transformer-sharp": "^2.1.4",
     "mysql": "^2.16.0",
     "pg": "^7.6.1",
@@ -30,13 +31,15 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mrfunnyshoes/gatsby-source-sql"
   }
 }
