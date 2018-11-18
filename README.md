@@ -108,13 +108,6 @@ query {
 }
 ```
 
-[1]: #
-[2]: #
-[dotenv]: https://github.com/motdotla/dotenv
-[env-vars]: https://gatsby.app/env-vars
-[knex]: https://github.com/tgriesser/knex
-[knex-docs]: https://knexjs.org
-
 ## TODOS
 
 - Namespace queries inside `fieldName`.
@@ -152,3 +145,10 @@ query {
 
 - Add this plugin to the official Gatsby repo.
 
+
+[1]: https://mrfunnyshoes.github.io/gatsby-source-sql/
+[2]: https://github.com/mrfunnyshoes/gatsby-source-sql/tree/example-site
+[dotenv]: https://github.com/motdotla/dotenv
+[env-vars]: https://gatsby.app/env-vars
+[knex]: https://github.com/tgriesser/knex
+[knex-docs]: https://knexjs.org
