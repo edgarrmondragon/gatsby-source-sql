@@ -32,7 +32,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
