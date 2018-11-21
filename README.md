@@ -222,7 +222,7 @@ query {
 }
 ```
 
-[website]: https://mrfunnyshoes.github.io/gatsby-source-sql/?target=_blank
+[website]: https://mrfunnyshoes.github.io/gatsby-source-sql
 [website-source]: https://github.com/mrfunnyshoes/gatsby-source-sql/tree/example-site
 
 [knex]: https://github.com/tgriesser/knex
