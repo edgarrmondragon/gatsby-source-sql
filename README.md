@@ -4,6 +4,7 @@ Plugin for connecting arbitrary SQL databases to Gatsby. Supported SQL databases
 
 - [Example website][website]
 - [Example website source][website-source]
+- [Feature request that motivated this plugin][feat-req]
 
 ## Table of contents
 
@@ -224,6 +225,7 @@ query {
 
 [website]: https://mrfunnyshoes.github.io/gatsby-source-sql
 [website-source]: https://github.com/mrfunnyshoes/gatsby-source-sql/tree/example-site
+[feat-req]: https://github.com/gatsbyjs/gatsby/issues/8714
 
 [knex]: https://github.com/tgriesser/knex
 [knex-config]: https://knexjs.org/#Installation-client
