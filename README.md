@@ -101,11 +101,9 @@ module.exports = {
       // Querying to a SQLite database
       resolve: `gatsby-source-sql`,
       options: {
-        // This type will contain the Query type, e.g. allNirvana
         typeName: 'Nirvana',
-        // This is field under which it will be accessible in a future version
+        // This is the field under which the data will be accessible in a future version
         fieldName: 'chinook',
-        // Knex database engine configuration
         dbEngine: {
           client: 'sqlite3',
           connection: {
@@ -113,7 +111,6 @@ module.exports = {
           },
           useNullAsDefault: true
         },
-        // The query method chain to run on the connection
         queryChain: function(x) {
           return x
             .select(
@@ -137,7 +134,6 @@ module.exports = {
         typeName: "Employees",
         fieldName: "postgres",
         dbEngine: {
-          // Pass the appropriate envvars for a PostgreSQL connection
           client: 'pg',
           connection: {
             host: process.env.PG_HOST,
