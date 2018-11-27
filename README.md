@@ -72,7 +72,7 @@ Check the `knex` [documentation][knex-config] to see how to configure other data
 
 #### Environment variables
 
-We recommend you secure any secrets you use to connect to the database using environment variables, so your secrets aren't commited to source control. You can use [`dotenv`][dotenv], which will then expose environment variables. [Read more about dotenv and using environment variables here][env-vars]. Then you can use the environment variables to configure this plugin.
+We recommend you secure any secrets you use to connect to the database using environment variables, so your secrets aren't commited to source control. You can use [`dotenv`][dotenv], which will then expose environment variables. Read more about dotenv and using environment variables [here][env-vars]. Then you can use the environment variables to configure this plugin.
 
 ### Build a query
 
