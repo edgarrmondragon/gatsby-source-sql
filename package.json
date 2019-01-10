@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-sql",
   "description": "Plugin for connecting arbitrary SQL databases to Gatsby. Supported SQL databases are MySQL/MariaDB, PostgreSQL, Amazon Redshift, SQLite3, Oracle and MSSQL",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Edgar Ramírez-Mondragón <edgarrm358@gmail.com>",
   "repository": "https://github.com/mrfunnyshoes/gatsby-source-sql",
   "main": "index.js",
