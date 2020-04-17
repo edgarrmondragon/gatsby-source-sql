@@ -21,7 +21,7 @@ Plugin for connecting arbitrary SQL databases to Gatsby. Supported SQL databases
 ## Install
 
 ```
-npm install --save git+https://github.com/mrfunnyshoes/gatsby-source-sql.git
+npm install --save git+https://github.com/edgarrmondragon/gatsby-source-sql.git
 ```
 
 ## Configuration
@@ -219,8 +219,8 @@ query {
 }
 ```
 
-[website]: https://mrfunnyshoes.github.io/gatsby-source-sql
-[website-source]: https://github.com/mrfunnyshoes/gatsby-source-sql/tree/example-site
+[website]: https://edgarrmondragon.github.io/gatsby-source-sql
+[website-source]: https://github.com/edgarrmondragon/gatsby-source-sql/tree/example-site
 [feat-req]: https://github.com/gatsbyjs/gatsby/issues/8714
 
 [knex]: https://github.com/tgriesser/knex
